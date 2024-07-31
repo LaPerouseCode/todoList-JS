@@ -2,7 +2,7 @@
 import { createToDo } from './create-to-do.js' ;
 import { blankProjectLoad } from './blank-project-load.js' ;
 import { displayDefaultProject, displayTheForm, addItemToChecklist, clearForm } from './dom-manip.js';
-import 'style.css'
+import './style.css'
 
 
 // Call blankProjectLoad on first land
@@ -27,10 +27,6 @@ let clickEventsModule = (function(){
     clearButton.addEventListener("click", clearForm);
 
 })
-
-
-
-
 
 
 // Call create-to-do.js module file and apply some objects/properties
